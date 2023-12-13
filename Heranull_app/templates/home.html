@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HERANULL.COM</title>
+</head>
+<body>
+    <h1>Heranull</h1>
+    <h2>Please, insert your link to the image:</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <table>
+            {{form}}
+        </table>
+        <input type="submit" value="Send" >
+    </form>
+</body>
+</html>
