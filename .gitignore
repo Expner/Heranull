@@ -1,7 +1,9 @@
 Docker/__init__.py
 Jenkins/__init__.py
 Heranull_app/__init__.py
+Heranull_app/__pycache__/
 Heranull_app/migrations/__init__.py
+Heranull_app/migrations/__pycache__/
 Heranull_app/templates/__init__.py
 Heranull_app/admin.py
 Heranull_config/
